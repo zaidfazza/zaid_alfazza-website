@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: beige url("background.jfif") no-repeat fixed center;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center ;
+}
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+
+
+ 
+.login-box {
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%; 
+    box-sizing:border-box;
+    border-radius: 5px;
+}
+
+
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+button {
+    background-color:darkred;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 16px;
+    margin-left: 160px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+button:hover {
+    opacity: 0.8;
+}
+.reg-box {
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: beige url("319848.png") no-repeat fixed center;
+}
+
+.reg-link:hover {
+    opacity: 0.8;
+    font-size: 24px;
+}
+.reg-link {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
